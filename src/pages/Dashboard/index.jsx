@@ -50,6 +50,8 @@ function Dashboard({ authenticated, setAuthenticated }) {
 
     setAuthenticated(false);
 
+    toast.success("Usuário deslogado, até a próxima!");
+
     return history.push(path);
   };
 
